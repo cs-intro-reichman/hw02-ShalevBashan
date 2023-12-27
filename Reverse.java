@@ -4,9 +4,11 @@ public class Reverse {
 		int middle = 0;
 		for (int i = word.length() - 1; i >= 0; i--) {
 			System.out.print (word.charAt(i));
-			if (i == word.length() / 2) {
-				middle = i - 1;
-			}
+		}
+		if (word.length()%2 != 0) {
+			middle = word.length() / 2;
+		} else {
+			middle = (word.length() / 2) - 1;
 		}
 		System.out.print ("\nThe middle character is " + word.charAt(middle));
 	}
