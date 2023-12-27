@@ -38,12 +38,12 @@ public class OneOfEachStats1 {
 		System.out.println ("Number of families with 4 or more children: " + cMore);
 		if (c2 > cMore || c3 > cMore) {
 			if (c2 > c3) {
-				System.out.println ("The most common number of children is 2");
+				System.out.println ("The most common number of children is 2.");
 			} else {
-				System.out.println ("The most common number of children is 3");
+				System.out.println ("The most common number of children is 3.");
 			}
 		} else {
-			System.out.println ("The most common number of children is 4 or more");
+			System.out.println ("The most common number of children is 4 or more.");
 		}
 	}
 }
